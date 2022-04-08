@@ -1,4 +1,8 @@
 /* this file is applied to all pages */
+:root {
+  --main-bg: hotpink
+}
+
 
 html,
 body {
@@ -13,6 +17,20 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: hotpink
+}
+
+p {
+  color: chartreuse
+}
+
 * {
   box-sizing: border-box;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
