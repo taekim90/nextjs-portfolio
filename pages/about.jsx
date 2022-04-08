@@ -7,7 +7,7 @@ export default function About() {
         <div className={styles.bgBlack}>
             <h1 className={styles.coolText}>About Me</h1>
 
-            <p>I'm an now a software engineer. I make neat stuff with code</p>
+            <p>I&apos;m an now a software engineer. I make neat stuff with code</p>
 
             {/* loading an image locally */}
             {/* an img tag would have also worked -- just no SSR caching */}
