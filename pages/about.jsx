@@ -4,9 +4,7 @@ import styles from '../styles/About.module.css'
 
 export default function About() {
     return (
-        // <div className={styles.bgBlack}>
-        // <div class='center' className={[styles.bgBlack, 'center'].join('')}>
-        <div classname={`${styles.bgBlack}`} class='center'>
+        <div className={styles.bgBlack}>
             <h1 className={styles.coolText}>About Me</h1>
 
             <p>I'm an now a software engineer. I make neat stuff with code</p>
